@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Mobilyacı Sunum",
+    "slug": "mobilyaci-sunum-prototipi",
+    "version": "0.1.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mobilyaci.sunumprototipi"
+    },
+    "android": {
+      "package": "com.mobilyaci.sunumprototipi",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Müşterinin mekân fotoğrafını sunumda kullanmak için galeri erişimi gerekir."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b9075d4a-71b4-473a-b80a-7c51b99e4336"
+      }
+    }
+  }
+}
